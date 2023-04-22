@@ -1,0 +1,32 @@
+# golang project ignore files
+
+# Binary files
+*.exe
+*.out
+
+# Object files
+*.o
+*.a
+
+# Go build output
+bin/
+pkg/
+*.test
+*.prof
+
+# IDE files
+.vscode/
+.idea/
+
+# Editor settings
+*.swp
+*.swo
+*.bak
+
+# Testing files
+reports/
+profile.out
+
+
+# Ignore system files and directories
+.DS_Store
