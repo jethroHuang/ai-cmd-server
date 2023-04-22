@@ -16,7 +16,7 @@ $ ./ai-cmd-server <your openai apikey>
 ## docker 编译并运行
 ```bash
 $ docker build -t ai-cmd-server .
-$ docker run -p 1323:1323 ai-cmd-server <your openai apikey>
+$ docker run -d -p 1323:1323 --name ai-cmd-container ai-cmd-server <your openai apikey>
 ```
 
 ## 使用
